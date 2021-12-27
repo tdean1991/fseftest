@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\tdean\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.0.1</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\tdean\.nuget\packages\" />
+    <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)entityframeworkcore.fsharp\6.0.5\build\net5.0\EntityFrameworkCore.FSharp.props" Condition="Exists('$(NuGetPackageRoot)entityframeworkcore.fsharp\6.0.5\build\net5.0\EntityFrameworkCore.FSharp.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMicrosoft_EntityFrameworkCore_SqlServer Condition=" '$(PkgMicrosoft_EntityFrameworkCore_SqlServer)' == '' ">C:\Users\tdean\.nuget\packages\microsoft.entityframeworkcore.sqlserver\6.0.1</PkgMicrosoft_EntityFrameworkCore_SqlServer>
+    <PkgMicrosoft_EntityFrameworkCore_InMemory Condition=" '$(PkgMicrosoft_EntityFrameworkCore_InMemory)' == '' ">C:\Users\tdean\.nuget\packages\microsoft.entityframeworkcore.inmemory\6.0.1</PkgMicrosoft_EntityFrameworkCore_InMemory>
+    <PkgFSharp_Core Condition=" '$(PkgFSharp_Core)' == '' ">C:\Users\tdean\.nuget\packages\fsharp.core\6.0.1</PkgFSharp_Core>
+    <PkgEntityFrameworkCore_FSharp Condition=" '$(PkgEntityFrameworkCore_FSharp)' == '' ">C:\Users\tdean\.nuget\packages\entityframeworkcore.fsharp\6.0.5</PkgEntityFrameworkCore_FSharp>
+  </PropertyGroup>
+</Project>
